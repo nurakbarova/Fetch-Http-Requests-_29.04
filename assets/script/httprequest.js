@@ -1,4 +1,4 @@
-const baseURL = "https://jsonplaceholder.typicode.com/posts";
+const baseURL = " https://jsonplaceholder.typicode.com/posts"
 
 export const getAllCategories = async() => {
     let globalData;

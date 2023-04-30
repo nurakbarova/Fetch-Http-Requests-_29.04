@@ -45,9 +45,7 @@
     color: white;
 }
 
-.main_sect_div{
-    margin-left:5%;
-}
+
 
 .nav__div__right__home{
     display: flex;
@@ -56,6 +54,12 @@
 }
 
 .nav__div__right__plus{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main_sect{
     display: flex;
     justify-content: space-between;
     align-items: center;
