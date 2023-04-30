@@ -5,12 +5,15 @@
     box-sizing: border-box;
     list-style: none;
 }
+header{
+    /* position: absolute; */
+}
 
 .nav__div {
-    background-color: rgb(44,62,80);
-    position: relative;
-    z-index: 1;
-    margin: 10px;
+    background-color: rgba(44, 62, 80, 0.352);
+    /* position: fixed;
+    z-index: 1; */
+    width: 100%;
     color: white;
     border: 1px solid black;
     display: flex;

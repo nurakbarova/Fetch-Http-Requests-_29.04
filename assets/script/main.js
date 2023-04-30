@@ -1,15 +1,16 @@
-import { getAllCategories } from "./httprequest.js";
+import { getAllCategories,  } from "./httprequest.js";
 
 getAllCategories()
+// deletepost()
 
 // let categories=getAllCategories();
 // console.log(categories);
-let card=document.querySelector(".card")
+let card = document.querySelector(".card")
 
 getAllCategories().then((data) => {
-  
-        data.forEach((data)=>{
-            card.innerHTML+=`   <div class="container">
+
+    data.forEach((data) => {
+        card.innerHTML += `   <div class="container">
             <div class="row">
                 <div class="col-4">
                     <div class="card "style="width: 18rem;">
